@@ -28,6 +28,7 @@ h2{
 
 h3{
   color: #FF5072;
+  font-family: "Montserrat",sans-serif;
 }
 
 p{
@@ -36,6 +37,9 @@ p{
   line-height: 2;
 }
 
+a:hover{
+  color: #FFFFFF;
+}
 
 /* class tags*/
 
@@ -70,6 +74,8 @@ p{
 }
 
 .chilli{
+  border-radius: 50%;
+  width: 200px;
   float: left;
   margin-right: 50px;
   clear: right;
@@ -110,12 +116,12 @@ p{
 }
 
 .btn:hover {
-  background: #30e3cb;
-  background-image: -webkit-linear-gradient(top, #30e3cb, #2bc4ad);
-  background-image: -moz-linear-gradient(top, #30e3cb, #2bc4ad);
-  background-image: -ms-linear-gradient(top, #30e3cb, #2bc4ad);
-  background-image: -o-linear-gradient(top, #30e3cb, #2bc4ad);
-  background-image: linear-gradient(to bottom, #30e3cb, #2bc4ad);
+  background: #FF5072;
+  background-image: -webkit-linear-gradient(top, #FF5072, rgb(255, 224, 230));
+  background-image: -moz-linear-gradient(top, #FF5072, rgb(255, 224, 230));
+  background-image: -ms-linear-gradient(top, #FF5072, rgb(255, 224, 230));
+  background-image: -o-linear-gradient(top, #FF5072, rgb(255, 224, 230));
+  background-image: linear-gradient(to bottom, #FF5072, rgb(255, 224, 230));
   text-decoration: none;
 }
 
@@ -126,4 +132,15 @@ p{
 
 .copyright{
   margin-bottom: 0;
+  color:#FF5072;
+  font-weight: bold;
+}
+
+.footer-link{
+  margin: 10px 20px 5px 20px;
+  text-decoration: none;
+  font-family: 'Montserrat', serif;
+  color: #FF5072;
+  font-weight: normal;
+
 }
